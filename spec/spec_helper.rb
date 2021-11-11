@@ -97,4 +97,11 @@ RSpec.configure do |config|
   # as the one that triggered the failure.
   Kernel.srand config.seed
 =end
+
+describe 'fizzbuzz' do
+  it 'returns "fizz" when passed 3' do
+    expect (fizzbuzz(3)).to eq 'fizz'
+  end
+end
+
 end
